@@ -29,7 +29,7 @@
 
     let mixer, clock = new THREE.Clock();
     new GLTFLoader().load(
-      './Easy Drawing Machine.glb',
+      'Easy Drawing Machine.glb',
       gltf => {
         scene.add(gltf.scene);
         const clip = gltf.animations.find(c=>c.name==='istown');
